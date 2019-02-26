@@ -1,0 +1,106 @@
+<!-- Author: Lahesh -- www.madebylahesh.com
+All rights reserved | 2019 -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>things</title>
+    <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r83/three.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    <script src="hover-effect.umd.js"></script>
+
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="pointer"></div>
+
+    <script type="text/javascript">
+      $(document).mousemove(function(e) {
+        $(".pointer").css({ left: e.pageX, top: e.pageY });
+      });
+    </script>
+    <div id="wrapper">
+      <div id="inner">
+        <div id="one">things. <br /><span id="tag">open-source</span></div>
+        <div id="two">
+          <a href="http://www.madebylahesh.com" target="_blank" id="two"
+            >madebylahesh.</a
+          >
+        </div>
+        <div id="three"></div>
+        <div id="four">
+          this project is created with the intention of contributing to the
+          fellow learning community by open-sourcing things I do as experiments.
+        </div>
+      </div>
+      <div id="container">
+        <div class="left">
+          <img id="main" src="./img/dark.png" width="100%" />
+          <div class="innerleft"></div>
+        </div>
+        <div id="right">
+          <div id="title">wriiite.</div>
+          <div id="content">
+            wriiite is an ultra simple yet offensive text editor experiment
+            built on Electron.js. It is just capable of editing text, saving and
+            opening files to/from a local macOS directory.<br />
+            <br />
+            Avaialble Actions:
+            <br />- save: writes a file to a local directory. <br />- open:
+            reads and open a file to edit in the editor. <br />- new: refreshes
+            the editor to start from scratch.
+          </div>
+          <div id="links">
+            <div id="linka">
+              <a
+                href="https://www.dropbox.com/s/wub2doiqop3usr4/wriiite-1.0.0.dmg?dl=0"
+                target="_blank"
+                >Download .dmg</a
+              >
+              <img src="img/arrow.svg" />
+            </div>
+            <div id="linkb">
+              <a href="https://github.com/laheshk/writtte" target="_blank"
+                >Github repo</a
+              >
+              <img src="img/arrow.svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        a project by
+        <span id="lahesh"
+          ><a href="http://www.madebylahesh.com" target="_blank"
+            >lahesh.</a
+          ></span
+        ><span id="tech"
+          >//open-source libraries used:
+          <a href="https://threejs.org" target="_blank">three.js,</a>
+          <a href="https://www.jquery.com" target="_blank">jQuery</a></span
+        >
+        <div id="social">
+          <a href="https://www.twitter.com/laheshk" target="_blank">/twitter</a
+          >&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="https://www.dribbble.com/laheshk" target="_blank"
+            >/dribbble</a
+          >&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="https://www.github.com/laheshk" target="_blank">/github</a>
+        </div>
+      </footer>
+    </div>
+    <script>
+      var myAnimation = new hoverEffect({
+        parent: document.querySelector(".innerleft"),
+        intensity: 0.2,
+        image1: "img/dark.png",
+        image2: "img/preview.png",
+        displacementImage: "img/displacement/20.jpg"
+      });
+    </script>
+  </body>
+</html>

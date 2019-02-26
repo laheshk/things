@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="13px" viewBox="0 0 31 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>arrow-dark</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy" transform="translate(-939.000000, -525.000000)" stroke="#000000" stroke-width="1.28">
+            <g id="Group-3-Copy-2" transform="translate(807.000000, 518.000000)">
+                <g id="arrow-dark" transform="translate(147.500000, 14.000000) rotate(-90.000000) translate(-147.500000, -14.000000) translate(141.500000, -0.500000)">
+                    <g id="Group-3" transform="translate(6.337209, 14.588235) rotate(90.000000) translate(-6.337209, -14.588235) translate(-7.662791, 9.088235)">
+                        <path d="M0,5.3372093 L26.7105882,5.3372093" id="Line-3" stroke-linecap="square"></path>
+                        <polyline id="Path-2" points="21.1458824 2.84217094e-14 27.8235294 5.3372093 21.1458824 10.6744186"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
