@@ -1,6 +1,9 @@
 /* Author: Lahesh -- www.madebylahesh.com
 All rights reserved | 2019 */
 
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+@import url("https://fonts.googleapis.com/css?family=Archivo");
+
 body {
   height: 100vh;
 }
@@ -41,7 +44,7 @@ a {
 }
 
 #title {
-  font-family: "Helvetica Neue";
+  font-family: "Helvetica Neue", "Archivo", sans-serif;
   font-weight: bold;
   font-size: 34px;
   color: #121212;
@@ -61,7 +64,7 @@ footer {
   font-size: 13px;
   font-weight: bold;
   color: #a5a5a5;
-  font-family: "Helvetica Neue";
+  font-family: "Helvetica Neue", "Archivo", sans-serif;
   /* position: fixed; */
 }
 
@@ -118,7 +121,7 @@ footer {
   }
 
   #inner {
-    font-family: "helvetica Neue";
+    font-family: "Helvetica Neue", "Archivo", sans-serif;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
@@ -180,7 +183,7 @@ footer {
     display: none;
   }
   #inner {
-    font-family: "helvetica Neue";
+    font-family: "Helvetica Neue", "Archivo", sans-serif;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
@@ -249,7 +252,7 @@ footer {
   }
 
   #inner {
-    font-family: "helvetica Neue";
+    font-family: "Helvetica Neue", "Archivo", sans-serif;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     /* grid-gap: 10px; */
